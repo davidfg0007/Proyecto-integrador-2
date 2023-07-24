@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_integrador_n2",
+  "version": "1.0.8",
+  "description": "Curso de Programación BackEnd - UNTREF",
+  "scripts": {
+    "start": "node --watch --no-warnings ./src/server.js",
+    "test": "node --no-warnings --experimental-fetch ./tests/proyecto2.test.js",
+    "stop": "killall -9 node",
+    "eslint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "David Fernando Giannoni",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongodb-connection-string-url": "^2.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.45.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.1.6"
+  }
+}
